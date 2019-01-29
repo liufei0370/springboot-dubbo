@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.springboot.dubbo.auto.config.DubboAutoConfiguration
+
+
+org.springframework.context.ApplicationListener=\
+com.springboot.dubbo.auto.event.OverrideDubboConfigApplicationListener,\
+com.springboot.dubbo.auto.event.WelcomeLogoApplicationListener,\
+com.springboot.dubbo.auto.event.AwaitingNonWebApplicationListener
